@@ -8,7 +8,7 @@ This project implements a simple neural network using only NumPy and Pandas to c
 - **Model Architecture**: Single-hidden-layer neural network(Multilayer perceptron)
 - **Activation Functions**: ReLU (hidden layer), Softmax (output layer)
 - **Optimizer**: Gradient Descent(Learning rate = 0.1)
-- **Iterations/Epochs**: 500
+- **Epochs**: 500
 - **Training Accuracy**: [91.08 %]
 - **Test Accuracy**: [91.2 %]
 - **Time**: [1m:07.87s]
