@@ -16,8 +16,8 @@ Y_test = data[:1000, 0]
 W1, b1, W2, b2 = gradient_descent(X_train, Y_train, 0.1, 100)
 
 # Evaluate model
-dev_predictions = make_predictions(X_test, W1, b1, W2, b2)
-accuracy = get_accuracy(dev_predictions, Y_test)
+Test_predictions = make_predictions(X_test, W1, b1, W2, b2)
+accuracy = get_accuracy(Test_predictions, Y_test)
 print(f"\nAccuracy on test dataset: {accuracy}")
 
 
