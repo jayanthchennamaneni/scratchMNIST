@@ -13,7 +13,7 @@ X_test = data[:1000, 1:].T / 255.0
 Y_test = data[:1000, 0]
 
 # Train model
-W1, b1, W2, b2 = gradient_descent(X_train, Y_train, 0.1, 100)
+W1, b1, W2, b2 = gradient_descent(X_train, Y_train, 0.1, 500)
 
 # Evaluate model
 Test_predictions = make_predictions(X_test, W1, b1, W2, b2)
