@@ -1,4 +1,4 @@
-## scratch MNIST
+## Scratch MNIST
 
 This project implements a simple neural network using only NumPy and Pandas to classify handwritten digits from the MNIST dataset(the classic dataset of handwritten images). The model architecture consists of an input layer, a hidden layer with ReLU activation, and an output layer with softmax activation.
 
@@ -9,8 +9,8 @@ This project implements a simple neural network using only NumPy and Pandas to c
 - **Activation Functions**: ReLU (hidden layer), Softmax (output layer)
 - **Optimizer**: Gradient Descent(Learning rate = 0.1)
 - **Iterations/Epochs**: 500
-- **Training Accuracy**: [91.08]
-- **Test Accuracy**: [91.2]
+- **Training Accuracy**: [91.08 %]
+- **Test Accuracy**: [91.2 %]
 - **Time**: [1m:07.87s]
 
 ## Usage
